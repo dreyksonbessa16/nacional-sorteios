@@ -13,7 +13,7 @@
 
 <h4>Features</h4>
 
-- [ ] Criação do servidor e configurações;
+- [ X ] Criação do servidor e configurações;
 - [ ] Instalação e configuração do ORM/POSTGRESQL;
 - [ ] Instalar e configura salvamento de imagens no google drive;
 - [ ] CRUD admin;
