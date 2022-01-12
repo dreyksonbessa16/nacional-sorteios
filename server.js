@@ -5,6 +5,8 @@ const cors = require("cors");
 
 const routes = require("./routes");
 
+require("./src/database");
+
 app.use(cors());
 app.use(morgan("dev"));
 
