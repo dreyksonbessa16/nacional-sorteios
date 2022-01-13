@@ -5,6 +5,11 @@
   "repository": "https://github.com/dreyksonbessa16/nacional-sorteios.git",
   "author": "Dreykson Oliveira Bessa <dreyksonbessa16@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "migration": "yarn sequelize migration:create --name",
+    "migrate": "yarn sequelize db:migrate"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^11.0.0",
@@ -15,6 +20,7 @@
     "sequelize": "^6.13.0"
   },
   "devDependencies": {
+    "nodemon": "^2.0.15",
     "sequelize-cli": "^6.3.0"
   }
 }
