@@ -13,9 +13,9 @@
 
 <h4>Features</h4>
 
-- [X] Criação do servidor e configurações;
+- [x] Criação do servidor e configurações;
 - [x] Instalação e configuração do ORM/POSTGRESQL;
-- [] Criação das migrations
+- [x] Criação das migrations
 - [ ] Instalar e configura salvamento de imagens no google drive;
 - [ ] CRUD admin;
 - [ ] CRUD usuários;
